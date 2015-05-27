@@ -45,5 +45,6 @@ group :development, :test do
   gem 'devise', '~> 3.5.1'
 
   gem 'doorkeeper'
+  gem 'rails_12factor'
 end
 
