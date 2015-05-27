@@ -46,5 +46,6 @@ group :development, :test do
 
   gem 'doorkeeper'
   gem 'rails_12factor'
+  gem 'omniauth'
 end
 
