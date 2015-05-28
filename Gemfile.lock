@@ -59,6 +59,9 @@ GEM
       responders
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
+    devise_cas_authenticatable (1.4.0)
+      devise (>= 1.2.0)
+      rubycas-client (>= 2.2.1)
     doorkeeper (2.2.1)
       railties (>= 3.2)
     erubis (2.7.0)
@@ -127,6 +130,8 @@ GEM
       json (~> 1.4)
     responders (2.1.0)
       railties (>= 4.2.0, < 5)
+    rubycas-client (2.3.9)
+      activesupport
     sass (3.4.14)
     sass-rails (5.0.3)
       railties (>= 4.0.0, < 5.0)
@@ -169,6 +174,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
   devise
+  devise_cas_authenticatable
   doorkeeper
   jbuilder (~> 2.0)
   jquery-rails

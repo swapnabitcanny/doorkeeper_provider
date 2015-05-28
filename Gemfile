@@ -43,6 +43,7 @@ group :development, :test do
   gem 'spring'
 
   gem 'devise'
+  gem 'devise_cas_authenticatable'
 
   gem 'doorkeeper'
   gem 'rails_12factor'
